@@ -174,3 +174,108 @@ Output obrigatório em caso de zero:
 * Guia do Participante — Redação ENEM (INEP)
 * Matriz oficial de competências
 * Critérios consolidados (FARO Educação)
+
+---
+
+## 🔧 Upgrades Obrigatórios do Agente (Ativados)
+
+### 1️⃣ Regra Dura de Pontuação (Obrigatória)
+
+* O agente **só pode atribuir** os seguintes valores por competência:
+
+    * `0 | 40 | 80 | 120 | 160 | 200`
+* Qualquer outro valor é **inválido**.
+* Cada pontuação deve estar **explicitamente vinculada a um nível (0 a V)**.
+
+Exemplo válido:
+
+```json
+{ "nivel": "IV", "score": 160 }
+```
+
+---
+
+### 2️⃣ Modo Dupla Correção (Simulação INEP)
+
+O agente deve executar **duas correções independentes**:
+
+* **Corretor A**: avaliação direta pelos níveis
+* **Corretor B**: avaliação conservadora (em caso de dúvida, descer 1 nível)
+
+Regra de consolidação:
+
+* Nota final da competência = **média aritmética** entre A e B
+* Se a média não for múltiplo de 40 → **arredondar para baixo**
+
+Exemplo:
+
+* A = 160 | B = 120 → Média = 140 → Resultado final = **120**
+
+---
+
+### 3️⃣ Heurísticas Automáticas por Competência
+
+O agente deve aplicar as seguintes regras mínimas:
+
+**C1 – Norma Culta**
+
+* Erros graves reincidentes → no máximo **Nível II (80)**
+* Presença de gírias/oralidade → no máximo **Nível III (120)**
+
+**C2 – Tema e Tipo Textual**
+
+* Ausência de tese explícita → no máximo **Nível III (120)**
+* Dependência clara dos textos motivadores → no máximo **Nível II (80)**
+
+**C3 – Argumentação**
+
+* Sem repertório sociocultural → no máximo **Nível III (120)**
+* Argumentos contraditórios → no máximo **Nível II (80)**
+
+**C4 – Coesão**
+
+* Ausência de paragrafação → no máximo **Nível II (80)**
+* Repetição excessiva de conectivos → no máximo **Nível III (120)**
+
+**C5 – Proposta de Intervenção**
+
+* Para atingir **Nível IV (160)** ou superior, a proposta deve conter obrigatoriamente:
+
+    * Agente
+    * Ação
+    * Meio
+    * Finalidade
+* Ausência de qualquer item → no máximo **Nível III (120)**
+
+---
+
+### 4️⃣ Relatório Final – Espelho do INEP
+
+O agente deve gerar um relatório final em **formato tabular**, simulando o espelho oficial do ENEM:
+
+```json
+{
+  "espelhoINEP": [
+    { "competencia": "C1", "nivel": "IV", "pontuacao": 160 },
+    { "competencia": "C2", "nivel": "III", "pontuacao": 120 },
+    { "competencia": "C3", "nivel": "IV", "pontuacao": 160 },
+    { "competencia": "C4", "nivel": "III", "pontuacao": 120 },
+    { "competencia": "C5", "nivel": "IV", "pontuacao": 160 }
+  ],
+  "notaFinal": 720
+}
+```
+
+Regras:
+
+* A soma deve ser **exatamente** a nota final
+* Cada linha deve ser justificável por evidência textual
+
+---
+
+## 🛑 Garantias do Agente
+
+* Nunca inventar critérios
+* Nunca flexibilizar níveis
+* Nunca compensar uma competência com outra
+* Sempre justificar quedas de nível
