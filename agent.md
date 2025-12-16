@@ -42,106 +42,99 @@ Output obrigatório em caso de zero:
 
 ---
 
-## 🟦 Competência 1 — Norma Culta
+## 🟦 Competência 1 — Norma Culta (Níveis Oficiais)
 
 ### Avalia
 
-* Ortografia e acentuação
-* Concordância verbal e nominal
-* Regência verbal e nominal
-* Pontuação
+* Domínio da norma padrão
+* Ortografia, acentuação, concordância, regência e pontuação
 * Registro formal (sem gírias/oralidade)
 
-### Escala
+### Níveis (usar explicitamente)
 
-* **200**: domínio excelente, desvios raríssimos
-* **160**: poucos desvios leves
-* **120**: desvios graves pontuais ou muitos leves
-* **80**: muitos desvios graves + oralidade
-* **40**: erros graves e frequentes
-* **0**: texto praticamente incompreensível
+* **Nível 0 (0 pts)**: Desconhecimento da modalidade escrita formal; texto incompreensível.
+* **Nível I (40 pts)**: Domínio precário e sistemático; muitos desvios graves; registro inadequado.
+* **Nível II (80 pts)**: Domínio insuficiente; muitos desvios gramaticais e de convenção.
+* **Nível III (120 pts)**: Domínio mediano; alguns desvios graves ou muitos leves.
+* **Nível IV (160 pts)**: Bom domínio; poucos desvios leves.
+* **Nível V (200 pts)**: Excelente domínio; desvios raríssimos e não reincidentes.
 
 ---
 
-## 🟩 Competência 2 — Compreensão do Tema e Tipo Textual
+## 🟩 Competência 2 — Compreensão do Tema e Tipo Textual (Níveis Oficiais)
 
 ### Avalia
 
 * Entendimento do tema
-* Existência de **tese**
-* Estrutura dissertativo-argumentativa
-* Introdução, desenvolvimento e conclusão
+* Aplicação de conhecimentos das áreas do saber
+* Estrutura dissertativo-argumentativa (tese, argumentos, conclusão)
 
-### Escala
+### Níveis (usar explicitamente)
 
-* **200**: tese clara, argumentos consistentes, foco total no tema
-* **160**: bom domínio, sem aprofundamento
-* **120**: abordagem superficial, tese implícita
-* **80**: estrutura fraca ou dependente dos textos motivadores
-* **40**: tangencia o tema
-* **0**: fuga ao tema ou tipo textual incorreto
-
----
-
-## 🟨 Competência 3 — Argumentação e Autoria
-
-### Avalia
-
-* Seleção e organização de argumentos
-* Relação lógica entre ideias
-* Uso de repertório sociocultural
-* Indícios de autoria (não copiar textos motivadores)
-
-### Escala
-
-* **200**: argumentos consistentes, autoria clara
-* **160**: bons argumentos, porém previsíveis
-* **120**: argumentos fracos ou pouco articulados
-* **80**: reprodução dos textos motivadores
-* **40**: não defende ponto de vista
-* **0**: incoerente ou desconectado do tema
+* **Nível 0 (0 pts)**: Fuga ao tema ou estrutura não dissertativo-argumentativa.
+* **Nível I (40 pts)**: Tangencia o tema; domínio precário do tipo textual.
+* **Nível II (80 pts)**: Cópia de textos motivadores; estrutura incompleta.
+* **Nível III (120 pts)**: Argumentação previsível; domínio mediano.
+* **Nível IV (160 pts)**: Argumentação consistente; bom domínio do tipo textual.
+* **Nível V (200 pts)**: Tema plenamente desenvolvido; excelente domínio do texto dissertativo-argumentativo.
 
 ---
 
-## 🟥 Competência 4 — Coesão Textual
+## 🟨 Competência 3 — Seleção, Organização e Defesa de Ponto de Vista (Níveis Oficiais)
 
 ### Avalia
 
+* Seleção e organização de informações
+* Relação lógica entre fatos, opiniões e argumentos
+* Defesa consistente de ponto de vista
+
+### Níveis (usar explicitamente)
+
+* **Nível 0 (0 pts)**: Informações desconexas; não defende ponto de vista.
+* **Nível I (40 pts)**: Informações incoerentes ou pouco relacionadas ao tema.
+* **Nível II (80 pts)**: Informações desorganizadas ou contraditórias; dependência dos textos motivadores.
+* **Nível III (120 pts)**: Argumentos limitados e pouco organizados.
+* **Nível IV (160 pts)**: Boa organização; indícios de autoria.
+* **Nível V (200 pts)**: Organização consistente; autoria clara e defesa sólida.
+
+---
+
+## 🟥 Competência 4 — Coesão e Articulação Linguística (Níveis Oficiais)
+
+### Avalia
+
+* Articulação entre frases e parágrafos
 * Uso adequado e variado de conectivos
-* Progressão lógica entre frases e parágrafos
-* Fluidez e paragrafação
+* Progressão lógica do texto
 
-### Escala
+### Níveis (usar explicitamente)
 
-* **200**: articulação plena e variada
-* **160**: poucas inadequações
-* **120**: coesão limitada
-* **80**: muitos problemas de articulação
-* **40**: texto truncado
-* **0**: não se configura como texto
+* **Nível 0 (0 pts)**: Não articula informações; não se configura como texto.
+* **Nível I (40 pts)**: Articulação precária; graves problemas de coesão.
+* **Nível II (80 pts)**: Articulação insuficiente; muitos desvios coesivos.
+* **Nível III (120 pts)**: Articulação mediana; repertório pouco diversificado.
+* **Nível IV (160 pts)**: Boa articulação; poucas inadequações.
+* **Nível V (200 pts)**: Articulação plena; repertório diversificado e adequado.
 
 ---
 
-## 🟪 Competência 5 — Proposta de Intervenção
+## 🟪 Competência 5 — Proposta de Intervenção (Níveis Oficiais)
 
-### Checklist obrigatório
+### Avalia
 
-A proposta deve conter:
+* Existência de proposta
+* Articulação com a discussão
+* Detalhamento (ação, agente, meio, finalidade)
+* Respeito aos direitos humanos
 
-1. **O que** será feito
-2. **Quem** fará
-3. **Como** será feito
-4. **Para quê** (objetivo)
-5. Respeito aos **direitos humanos**
+### Níveis (usar explicitamente)
 
-### Escala
-
-* **200**: proposta completa, detalhada e coerente
-* **160**: proposta clara, pouco detalhamento
-* **120**: proposta genérica
-* **80**: pouco articulada ao texto
-* **40**: vaga ou superficial
-* **0**: inexistente ou fora do tema
+* **Nível 0 (0 pts)**: Não apresenta proposta ou proposta fora do tema.
+* **Nível I (40 pts)**: Proposta vaga, precária ou apenas relacionada ao assunto.
+* **Nível II (80 pts)**: Proposta insuficiente ou não articulada ao texto.
+* **Nível III (120 pts)**: Proposta mediana, articulada, sem detalhamento.
+* **Nível IV (160 pts)**: Boa proposta, relacionada e coerente.
+* **Nível V (200 pts)**: Proposta detalhada, completa e plenamente articulada.
 
 ---
 
