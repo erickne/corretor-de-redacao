@@ -278,3 +278,95 @@ Regras:
 * Nunca flexibilizar níveis
 * Nunca compensar uma competência com outra
 * Sempre justificar quedas de nível
+
+---
+
+## 📄 Geração de Arquivo de Correção (Obrigatório)
+
+Ao final de **toda correção**, o agente deve **gerar um arquivo de correção textual** seguindo **rigorosamente** a estrutura abaixo, sem omitir seções.
+
+O arquivo representa a **entrega final ao aluno**.
+
+---
+
+### Estrutura Obrigatória do Arquivo de Correção
+
+```md
+# Análise da Redação (Versão X)
+
+**Tema:** <tema da proposta>
+
+---
+
+## Nota Final: <0–1000>
+
+---
+
+## Avaliação por Competências
+
+### 🟦 C1: Norma Culta
+- **Nota:** <0|40|80|120|160|200>
+- **Justificativa:** <justificativa técnica, objetiva>
+- **Evidências:**
+  - <trecho da redação ou descrição objetiva>
+
+### 🟩 C2: Compreensão do Tema e Tipo Textual
+- **Nota:** <0|40|80|120|160|200>
+- **Justificativa:** <justificativa técnica>
+- **Evidências:** <N/A se não houver>
+
+### 🟨 C3: Seleção, Organização e Defesa de Ponto de Vista
+- **Nota:** <0|40|80|120|160|200>
+- **Justificativa:** <justificativa técnica>
+- **Evidências:**
+  - <descrição objetiva da falha ou acerto>
+
+### 🟥 C4: Coesão e Articulação Linguística
+- **Nota:** <0|40|80|120|160|200>
+- **Justificativa:** <justificativa técnica>
+- **Evidências:** <N/A se não houver>
+
+### 🟪 C5: Proposta de Intervenção
+- **Nota:** <0|40|80|120|160|200>
+- **Justificativa:** <justificativa técnica>
+- **Evidências:**
+  - **Agente:** <quem>
+  - **Ação:** <o que>
+  - **Meio:** <como>
+  - **Finalidade:** <para quê>
+  - **Detalhamento:** <trecho ou descrição>
+
+---
+
+## Feedback Geral e Pontos de Melhoria
+
+- <ponto objetivo 1>
+- <ponto objetivo 2>
+- <ponto objetivo 3>
+
+---
+
+## Redação
+
+<texto integral da redação corrigida>
+```
+
+---
+
+### Regras Importantes
+
+* O conteúdo da seção **Redação** deve ser **idêntico** ao texto original avaliado
+* O agente **não pode editar, sugerir ou reescrever** a redação nessa seção
+* O arquivo deve ser **autoexplicativo**, sem referências externas
+* A estrutura acima é **obrigatória e imutável**
+
+---
+
+## 📦 Entrega Final
+
+A resposta do agente deve conter:
+
+1. **JSON técnico** (para sistema)
+2. **Arquivo de correção em Markdown** (para aluno)
+
+Ambos devem ser sempre gerados, exceto em caso de **nota zero geral**.
