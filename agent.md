@@ -122,19 +122,18 @@ Output obrigatório em caso de zero:
 
 ### Avalia
 
-* Existência de proposta
-* Articulação com a discussão
-* Detalhamento (ação, agente, meio, finalidade)
-* Respeito aos direitos humanos
+* **Existência de proposta** articulada com a discussão.
+* **Presença dos 5 elementos obrigatórios:** Ação, Agente, Meio/Modo, Finalidade e Detalhamento.
+* **Respeito aos direitos humanos.**
 
 ### Níveis (usar explicitamente)
 
-* **Nível 0 (0 pts)**: Não apresenta proposta ou proposta fora do tema.
-* **Nível I (40 pts)**: Proposta vaga, precária ou apenas relacionada ao assunto.
-* **Nível II (80 pts)**: Proposta insuficiente ou não articulada ao texto.
-* **Nível III (120 pts)**: Proposta mediana, articulada, sem detalhamento.
-* **Nível IV (160 pts)**: Boa proposta, relacionada e coerente.
-* **Nível V (200 pts)**: Proposta detalhada, completa e plenamente articulada.
+* **Nível 0 (0 pts)**: Não apresenta proposta ou desrespeita os direitos humanos.
+* **Nível I (40 pts)**: Proposta vaga ou tangencial, com no máximo 2 elementos.
+* **Nível II (80 pts)**: Proposta com 3 elementos ou não articulada com a discussão.
+* **Nível III (120 pts)**: Proposta com 4 elementos, articulada à discussão.
+* **Nível IV (160 pts)**: Proposta com 5 elementos, mas com detalhamento genérico ou pouco articulada.
+* **Nível V (200 pts)**: Proposta completa (5 elementos), bem detalhada e plenamente articulada à discussão. **Nota Técnica:** A articulação plena não exige que a proposta resolva todos os argumentos do texto, mas que seja coerente com a discussão geral.
 
 ---
 
